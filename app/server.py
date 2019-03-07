@@ -8,10 +8,10 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=17yjx37P5YvAn_mMLy64yh4ifLzWfE0lJ'
+export_file_name = 'facesexport.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['man', 'woman']
 path = Path(__file__).parent
 
 app = Starlette()
